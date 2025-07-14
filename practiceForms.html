@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student survey Form</h1>
+    <form action="post">
+        
+<div>
+    <h5>Enter your username</h5>
+    <input type="text" name="username" id="username" placeholder="enter your username">
+    <h5>Enter pincode</h5>
+    <input type="text" name="pincode" id="pincode" placeholder="enter your pincode">
+    <h5>Enter your address</h5>
+    <input type="text" name="address" id="address" placeholder="enter your address">
+
+</div>
+<div>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male"> Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female"> Female</label>
+</div>
+<div>
+    <select name="education" id="education">
+    <option value="high scool"> High School</option>
+    <option value="intermediate">Intermediate</option>
+    <option value="under graduate">Under Graduate(UG)</option>
+    <option value="post graduate">Post Graduate(PG)</option>
+    </select>
+</div>
+<div>
+    <textarea name="about yourself" id="about yourself" rows="6" cols="50" >Tell me about yourself...</textarea>
+    <label for="about yourself"></label>
+</div>
+
+    </form>
+</body>
+</html>
