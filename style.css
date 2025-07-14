@@ -1,6 +1,14 @@
 body{
-color: white;
-background-color: black;
 
 }
+h1{
+    color: red;
+}
+span{
+    color: rgb(32, 32, 194);
+}
+button{
+    background-color: rgb(58, 58, 188);
+}
+
 
